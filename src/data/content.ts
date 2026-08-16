@@ -62,12 +62,60 @@ export const capabilities = [
 ];
 
 export const products = [
-  { name: "WOMENSWEAR", image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" },
-  { name: "MENSWEAR", image: "https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" },
-  { name: "OUTERWEAR", image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" },
-  { name: "ACTIVEWEAR", image: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" },
-  { name: "CASUALWEAR", image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" },
-  { name: "KIDSWEAR", image: "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" }
+  { 
+    name: "WOMENSWEAR", 
+    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Oversized Linen Blazer", material: "100% Organic Linen", moq: "500 pcs", image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop" },
+      { name: "Silk Slip Dress", material: "Mulberry Silk", moq: "300 pcs", image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=800&auto=format&fit=crop" },
+      { name: "Pleated Trousers", material: "Wool Blend", moq: "1000 pcs", image: "/images/pleated trousers.jpg" }
+    ]
+  },
+  { 
+    name: "MENSWEAR", 
+    image: "https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Tailored Oxford Shirt", material: "Egyptian Cotton", moq: "1000 pcs", image: "/images/tailored-oxford-shirt.webp" },
+      { name: "Chino Pants", material: "Cotton Twill", moq: "1500 pcs", image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop" },
+      { name: "Merino Crewneck", material: "Merino Wool", moq: "500 pcs", image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop" }
+    ]
+  },
+  { 
+    name: "OUTERWEAR", 
+    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Waterproof Trench", material: "Gore-Tex Blend", moq: "300 pcs", image: "/images/Waterproof trench.webp" },
+      { name: "Puffer Jacket", material: "Recycled Down", moq: "500 pcs", image: "https://images.unsplash.com/photo-1559551409-dadc959f76b8?q=80&w=800&auto=format&fit=crop" },
+      { name: "Vegan Leather Biker", material: "PU Leather", moq: "400 pcs", image: "/images/Vegan Leather Biker.jpeg" }
+    ]
+  },
+  { 
+    name: "ACTIVEWEAR", 
+    image: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Seamless Leggings", material: "Nylon / Spandex", moq: "2000 pcs", image: "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?q=80&w=800&auto=format&fit=crop" },
+      { name: "Performance Tee", material: "Moisture-wicking Poly", moq: "3000 pcs", image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop" },
+      { name: "Windbreaker", material: "Ripstop Nylon", moq: "1000 pcs", image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop" }
+    ]
+  },
+  { 
+    name: "CASUALWEAR", 
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Heavyweight Hoodie", material: "100% French Terry", moq: "1000 pcs", image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop" },
+      { name: "Relaxed Fit Tee", material: "Organic Cotton", moq: "2500 pcs", image: "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=800&auto=format&fit=crop" },
+      { name: "Denim Jacket", material: "Raw Denim", moq: "500 pcs", image: "/images/denim-jacket.jpg" }
+    ]
+  },
+  { 
+    name: "KIDSWEAR", 
+    image: "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    items: [
+      { name: "Playtime Romper", material: "Soft Bamboo", moq: "1000 pcs", image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop" },
+      { name: "Graphic Tees Set", material: "Cotton Blend", moq: "2000 pcs", image: "https://images.unsplash.com/photo-1522771930-78848d9293e8?q=80&w=800&auto=format&fit=crop" },
+      { name: "Cozy Knit Sweater", material: "Cotton Knit", moq: "800 pcs", image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=800&auto=format&fit=crop" }
+    ]
+  }
 ];
 
 export const manufacturingStory = {
@@ -124,8 +172,8 @@ export const sustainability = {
 export const people = {
   heading: "THE PEOPLE\nBEHIND THE PRODUCT.",
   text: "Our greatest asset isn't our machinery—it's the skilled teams and human expertise that power our manufacturing. We foster a culture of craftsmanship, collaboration, and continuous improvement.",
-  image1: "https://images.unsplash.com/photo-1551280857-2b9ebf241519?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-  image2: "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  image1: "/images/garment_factory-r9zuymgo8lu38xxat5dmmx7bd4plxh9y6m741eibr4.webp",
+  image2: "/images/360_F_652019474_1ZREHqFyavLOgYGx3S3CPYFEcdoNQTTe.jpg"
 };
 
 export const globalReach = {
