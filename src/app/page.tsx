@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
+import { ExpertiseVideo } from "@/components/sections/ExpertiseVideo";
 import { BrandStory } from "@/components/sections/BrandStory";
 import { Stats } from "@/components/sections/Stats";
 import { Products } from "@/components/sections/Products";
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col w-full selection:bg-foreground selection:text-background">
         <Hero />
         <BrandStory />
+        <ExpertiseVideo />
         <Stats />
         <Products />
         <Manufacturing />
